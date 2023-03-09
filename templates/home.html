@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href={% static "css/home.css" %}>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<title>Библиотека</title>
+</head>
+<body>
+
+	<header>
+		<a href="home"><img class="logo" src={% static "images/belka.svg" %}></a>
+
+		<a class="nav">Приключения</a>
+		<a class="nav">Фантастика</a>
+		<a class="nav">Детективы</a>
+		<a class="nav">Проза</a>
+		<a class="nav">Детское</a>
+		<a class="nav" href="newbook">Добавить</a>
+		<form class="search">
+  			<input class="search-text" type="search" placeholder="Искать здесь...">
+  			<button class="search-enter" type="submit"></button>
+		</form>
+	</header>
+	<main>
+
+		<div class="string-book">
+			<div class="book">
+				<a href="book/{{ name1 }}"><img class="mini-book" src='media/{{ photo1 }}'></a>
+				<div>
+					<p>{{ name1 }}</p>
+
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name2 }}"><img class="mini-book" src='media/{{ photo2 }}'></a>
+				<div>
+					<p>{{ name2 }}</p>
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name3 }}"><img class="mini-book" src='media/{{ photo3 }}'></a>
+				<div>
+					<p>{{ name3 }}</p>
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name4 }}"><img class="mini-book" src='media/{{ photo4 }}'></a>
+				<div>
+					<p>{{ name4 }}</p>
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name5 }}"><img class="mini-book" src='media/{{ photo5 }}'></a>
+				<div>
+					<p>{{ name5 }}</p>
+				</div>
+			</div>
+		</div>
+		<div class="string-book">
+			<div class="book">
+				<a href="book/{{ name6 }}"><img class="mini-book" src='media/{{ photo6 }}'></a>
+				<div>
+					<p>{{ name6 }}</p>
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name7 }}"><img class="mini-book" src='media/{{ photo7 }}'></a>
+				<div>
+					<p>{{ name7 }}</p>
+
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name8 }}"><img class="mini-book" src='media/{{ photo8 }}'></a>
+				<div>
+					<p>{{ name8 }}</p>
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name9 }}"><img class="mini-book" src='media/{{ photo9 }}'></a>
+				<div>
+					<p>{{ name9 }}</p>
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name10 }}"><img class="mini-book" src='media/{{ photo10 }}'></a>
+				<div>
+					<p>{{ name10 }}</p>
+				</div>
+			</div>
+		</div>
+		<div class="string-book">
+			<div class="book">
+				<a href="book/{{ name11 }}"><img class="mini-book" src='media/{{ photo11 }}'></a>
+				<div>
+					<p>{{ name11 }}</p>
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name12 }}"><img class="mini-book" src='media/{{ photo12 }}'></a>
+				<div>
+					<p>{{ name12 }}</p>
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name13 }}"><img class="mini-book" src='media/{{ photo13 }}'></a>
+				<div>
+					<p>{{ name13 }}</p>
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name14 }}"><img class="mini-book" src='media/{{ photo14 }}'></a>
+				<div>
+					<p>{{ name14 }}</p>
+				</div>
+			</div>
+			<div class="book">
+				<a href="book/{{ name15 }}"><img class="mini-book" src='media/{{ photo15 }}'></a>
+				<div>
+					<p>{{ name15 }}</p>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

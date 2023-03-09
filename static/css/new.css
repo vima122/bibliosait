@@ -1,0 +1,65 @@
+.book {
+	width: 447px;
+	height: 575px;
+	margin-left: 98px;
+	margin-top: 91px;
+}
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #AB8116;
+}
+
+.logo {
+	margin-top: 2.58px;
+	margin-left: 108px;
+	width: 111.5px;
+	height: 126.42px;
+}
+
+header {
+	display: flex;
+	width: 1366px;
+	height: 129px;
+	background: #643F08;
+	margin-top: 0px;
+	margin-left: 0px;
+
+}
+.nav {
+	color: white;
+	font-size: 24px;
+	margin-top: 84px;
+	padding-left: 30px;
+
+}
+.search {
+	width: 200px;
+	height: 48px;
+	margin-top: 11px;
+	margin-right: 185px;
+}
+
+	
+}
+}
+.div-search {
+	display: flex;
+
+}
+.search-enter {
+	width: 100px;
+	margin-top: 11px;
+	margin-right: 200px;
+}
+.vvod {
+	width: 500px;
+	height: 50px;
+	margin-top: 34px;
+}
+
+.about {
+	width: 500px;
+	height: 500px;
+	margin-top: 34px;
+}

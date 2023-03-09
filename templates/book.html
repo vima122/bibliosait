@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href={% static "css/book.css" %}>
+	<title>Библиотека</title>
+</head>
+<body>
+
+	<header>
+		<a href="home"><img class="logo" src={% static "images/belka.svg" %}></a>
+
+		<a class="nav">Приключения</a>
+		<a class="nav">Фантастика</a>
+		<a class="nav">Детективы</a>
+		<a class="nav">Проза</a>
+		<a class="nav">Детское</a>
+		<a class="nav" href="newbook">Добавить</a>
+		<div class="div-search">
+			<input placeholder="Поиск" class="search" type="text" name="search">
+			<button class="search-enter">Искать</button>
+		</div>
+	</header>
+	<main>
+		<img class="book" src='../media/{{ photo }}' >
+		<div>
+			<input disabled class="name vvod" value='{{ name }}'>
+			<input disabled class="avtor vvod" value='{{ avtor }}'>
+			<input disabled class="janr vvod" value='{{ janr }}'>
+			<input disabled class="star vvod" value='{{ star }}'>
+			<input disabled class="place vvod" value='{{ place }}'>
+			<input disabled class="about" value='{{ about }}'>
+		</div>
+
+	</main>
+</body>
+</html>
